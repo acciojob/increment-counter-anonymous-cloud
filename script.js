@@ -1,11 +1,11 @@
 //your JS code here. If required.
-let counter = document.getElementByid("counter")
-let btn = documment.getElementByid("btn")
+let counter = document.getElementById("counter")
+let btn = documment.getElementById("btn")
 
 let count = 0
 btn.addEventListner("click",()=>{
 count++
-counter.textElement = count;
+counter.textContent = count;
 
 
 	
