@@ -1,12 +1,9 @@
 //your JS code here. If required.
-let counter = document.getElementById("counter")
-let btn = document.getElementById("btn")
+ const counterElement = document.getElementById('counter');
+    const incrementBtn = document.getElementById('incrementBtn');
+    let count = 0;
 
-let count = 0
-btn.addEventListner("click",()=>{
-count++
-counter.textContent = count;
-
-
-	
-})
+    incrementBtn.addEventListener('click', () => {
+      count++;
+      counterElement.textContent = count;
+    });
